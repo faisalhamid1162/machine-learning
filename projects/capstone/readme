@@ -1,0 +1,8 @@
+The zip file contains the following files (exluding the readme):
+
+	- report.pdf : This is a pdf version of the final report that summarizes the capstone project.
+	- CapstoneMLE.ipynb : This is an IPython Notebook file containing all code used to generate the results
+	- 3 different '.pkl' files.  These are pickle dumps that are used to store data from the Capstone notebook in order to prevent unnecessary recalculations.
+
+
+In order to run the code, open the IPython notebook.  If the 'globalUpdate' variable is set to False, the notebook will simply load data from the pickle files included and everything should reload quite fast.  When set to True, the notebook will download all data and perform all calculations from scratch.  This is quite time consuming and will take alteast a few hours.
